@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/save_city"
+        android:title="Save City">
+    </item>
+    <item
+        android:id="@+id/set_curr_city"
+        android:title="Set as current city">
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings">
+    </item>
+
+</menu>

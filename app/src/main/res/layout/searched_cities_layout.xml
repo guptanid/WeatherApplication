@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="5dp"
+    android:elevation="12dp">
+    <TextView
+        android:id="@+id/txtSavedTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/txtSavedCityCountry"
+        android:layout_toRightOf="@+id/txtSavedCityCountry" />
+
+    <TextView
+        android:id="@+id/txtSavedLastUpdated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtSavedTemp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtSavedTemp" />
+
+    <TextView
+        android:id="@+id/txtSavedCityCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imgSavedFav" />
+
+    <ImageButton
+        android:id="@+id/imgSavedFav"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/txtSavedLastUpdated"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/star_gray" />
+</RelativeLayout>

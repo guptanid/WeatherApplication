@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="api_key">MRh3DLhCcBY9778T48NGaLI2AaMJxZd4</string>
+    <string name="pref_Temp_unit">Temperature Unit</string>
+    <string name="pref_temp_subtext">Choose between Celcius and Fahrenheit</string>
+    <string name="pref_city_text">Current City</string>
+    <string name="pref_city_subtext">Change Current City</string>
+    <string name="pref_city_edittext">Enter Your City</string>
+    <string name="pref_country_edittext">Enter Your Country</string>
+    <string name="city_not_set_msg">Current City not yet set</string>
+    <string name="no_saved_cities">There are no cities to display. \n Search the city from the search box and save.</string>
+    <string name="headlinelabel">Headline</string>
+    <string name="condition_label">Condition</string>
+    <string name="day_label">Day</string>
+    <string name="night_label">Night</string>
+    <string name="moredetails_label">Click here for more details</string>
+    <string name="extended_forecast_label">Click here for extended forecast</string>
+    <string name="toastText_CtoF">Temperature Unit has been changed from C to F.</string>
+    <string name="toastText_FtoC">Temperature Unit has been changed from F to C.</string>
+</resources>
